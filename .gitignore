@@ -11,3 +11,13 @@ dist/
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+
+# native 
+/gradle
+/ios
+/android
+src/android/gradle
+packages/*/android/.gradle
+packages/*/android/build
+packages/*/android/.settings

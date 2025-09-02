@@ -20,7 +20,7 @@ function initBackground () {
   context.addEventListener("message", (event) => {
     console.log('got event in core context', event);
   });
-  var ws = new WebSocket ('wss://echo.websocket.org');
+  var ws = new WebSocket ('ws://10.0.0.30:8008');
   ws.onmessage = function (msg) {
     console.log('got message', msg);
   }

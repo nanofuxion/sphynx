@@ -4,6 +4,12 @@
   "type": "module",
   "scripts": {
     "build": "rspeedy build",
+    "ios:create": "t4l ios create",
+    "ios:link": "t4l ios link",
+    "ios:bundle": "t4l ios bundle",
+    "android:create": "t4l android create",
+    "android:link": "t4l android link",
+    "android:bundle": "t4l android bundle",
     "dev": "rspeedy dev",
     "preview": "rspeedy preview",
     "test": "vitest run"

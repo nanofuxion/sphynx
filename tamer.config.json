@@ -1,0 +1,10 @@
+{
+  "android": {
+    "appName": "sphynx",
+    "packageName": "com.nanofuxion.sphynx"
+  },
+  "ios": {
+    "appName": "sphynx",
+    "bundleId": "com.nanofuxion.sphynx"
+  }
+}
